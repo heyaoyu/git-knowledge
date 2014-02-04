@@ -1,3 +1,7 @@
+#author heyaoyu
+#:
+#main sample
+
 def main():
   print 'main'
 
