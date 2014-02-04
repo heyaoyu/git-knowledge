@@ -1,0 +1,30 @@
+git init / git clone 
+  set up a git repository
+
+git branch dev
+  create new local branch dev, just copy /refs/heads/master to /refs/heads/dev
+git checkout dev
+  switch branch to dev, HEAD point to /refs/heads/dev
+git push origin dev:dev <==> git push origin /refs/heads/dev:/refs/heads/dev
+  make local branch dev public
+
+git remote show origin
+  show local and remote branches relationship
+
+git branch -d branch
+  delete local branch
+git push origin :branch
+  delete remote branch
+git pull
+  == git fetch + git merge
+
+references flavors:
+  heads-local remotes-public tags-tags
+  local-commit, merge, rebase, reset
+  public-fetch push
+
+git reset --hard HEAD^^|origin/master|commit
+
+git's advantages:
+  1. save snapshots than svn's delter;
+  2. open branch cost is very low.

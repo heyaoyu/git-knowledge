@@ -1,9 +1,0 @@
-git branch dev
-  create new local branch dev, just copy /refs/heads/master to /refs/heads/dev
-git checkout dev
-  switch branch to dev, HEAD point to /refs/heads/dev
-git push origin dev:dev <==> git push origin /refs/heads/dev:/refs/heads/dev
-  make local branch dev public
-
-git remote show origin
-  show local and remote branches relationship
