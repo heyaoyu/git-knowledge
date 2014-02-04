@@ -1,0 +1,5 @@
+git:
+  1. save snapshot than delta;
+  2. branch cost is low;
+  3. fast-forward is safe, just pointer movation;
+  4. IF A BRANCH IS PUBLISHED TO PUBLIC, DON'T rebase IT !!!!!!!
