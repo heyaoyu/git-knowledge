@@ -1,0 +1,10 @@
+git add file:
+  add file under track;
+git commit -m msg:
+  commit changes with msg;
+git checkout file:
+  use HEAD/file to overwrite working directory file; (staged to original)
+git reset HEAD^^ --hard:
+  undo one commit
+
+.gitignore file is for ignoring some files.
